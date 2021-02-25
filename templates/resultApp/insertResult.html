@@ -1,0 +1,75 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Result</title>
+    <!-- Latest compiled and minified CSS -->
+    <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/4.5.2/css/bootstrap.min.css">
+
+    <!-- jQuery library -->
+    <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.5.1/jquery.min.js"></script>
+
+    <!-- Popper JS -->
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/popper.js/1.16.0/umd/popper.min.js"></script>
+
+    <!-- Latest compiled JavaScript -->
+    <script src="https://maxcdn.bootstrapcdn.com/bootstrap/4.5.2/js/bootstrap.min.js"></script>
+</head>
+
+<body>
+
+    <div class="container p-5 bg-secondary text-white">
+        <form>
+            <div class="form-group row">
+                <label for="Year" class="col-sm-2 col-form-label">Year</label>
+                <div class="col-sm-10">
+                    <input type="number" class="form-control" id="Year" placeholder="Year">
+                </div>
+            </div>
+            <div class="form-group row">
+                <label for="Devision" class="col-sm-2 col-form-label">Roll</label>
+                <div class="col-sm-10">
+                    <input type="number" class="form-control" id="Devision" placeholder="Devision">
+                </div>
+            </div>
+            <div class="form-group row">
+                <label for="Roll" class="col-sm-2 col-form-label">Roll</label>
+                <div class="col-sm-10">
+                    <input type="text" class="form-control" id="Roll" placeholder="Roll">
+                </div>
+            </div>
+            <div class="form-group row">
+                <label for="Name" class="col-sm-2 col-form-label">Name</label>
+                <div class="col-sm-10">
+                    <input type="text" class="form-control" id="Name" placeholder="Name">
+                </div>
+            </div>
+            <!-- jsp repeat this  -->
+            <div class="form-group row">
+                <label for="Subject" class="col-sm-2 col-form-label">Subject</label>
+                <div class="col-sm-10">
+                    <input type="text" class="form-control" id="Subject" placeholder="Subject JSP Loop">
+                </div>
+            </div>
+            <!-- jsp repeat end here  -->
+            <div class="form-group row">
+                <label for="GPA" class="col-sm-2 col-form-label">GPA</label>
+                <div class="col-sm-10">
+                    <input type="text" class="form-control" id="GPA" placeholder="GPA">
+                </div>
+            </div>
+
+
+            <div class="form-group row">
+                <div class="col-sm-10 ">
+                    <button type="submit" class="btn btn-success">Insert Result</button>
+                </div>
+            </div>
+        </form>
+    </div>
+</body>
+
+</html>
